@@ -41,7 +41,7 @@ section#principal{
 }
 
 section#principal > div#imagem{
-    background: #5f2c82 url(../imagens/Tela.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/TelaSolida.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 95vh;
@@ -49,6 +49,7 @@ section#principal > div#imagem{
 section#principal > menu ul{
     list-style-type: none;
     background-color: gray;
+    font-size: smaller;
 }
   
 section#principal > menu li{
