@@ -43,8 +43,8 @@ section#principal{
 section#principal > div#imagem{
     background: #5f2c82 url(../imagens/TelaSolidaVerde1.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
-    height: 95vh;
+    background-position: center;
+    height: 100vh;
 }
 section#principal > menu ul{
     list-style-type: none;
