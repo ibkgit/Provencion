@@ -16,9 +16,9 @@
     --cor3:#2fa866;
     --cor4:#1a5c37;
     --cor5:#063d1e;
-    --cor6:#b7babd;
+    --cor6:#86afd3;
     --cor7:#f0e7e1;
-    --cor8:#888888;    
+    --cor8:#626466;    
        
     --fonte-padrao:Arial, Verdana, Helvetica, sanz-serif;
     --fonte-destaque:'Bebas Neue', cursive; 
@@ -41,36 +41,11 @@ header{
   background-color: var(--cor4);
   min-height: 50px;
   text-align: center;
-  padding-top: 0px;  
-  padding-bottom: 0px;
-}
-div.quadrado{
-  width: 300px;
-  height:300px;
-} 
-div#q1{
-  background-color:var(--cor8);
-  width: 450px;
-  height: 85vh; 
-  margin-top: 20px;  
-  margin-left: 400px;
-  border-radius: 5px;
-  background-position: center center;             
-  position: absolute; 
-}
-div#q2{
-  background-color:var(--cor6);
-  width: 1279px;  
-  height: 5%; 
-  
-  /*margin-left: 0px;*/
-  margin: 0;   
-  margin-top: 573px;  */  
-  background-position: center center;             
-  position: fixed; 
+  padding-top: 10px;  
+  padding-bottom: 10px;
 }
 
-/*header > h1 {
+header > h1 {
   color: var(--cor6);
   text-decoration: none;  
   font-family: var(--fonte-android);
@@ -143,6 +118,10 @@ aside{
   border-radius: 10px;
 }
 
+div#q1{
+  background-color: skyblue; 
+}
+
 footer {
   background-color: var(--cor5);
   color: white;
@@ -161,4 +140,3 @@ footer a:hover{
   text-decoration: underline;
   color: var(--cor1);
 }
-*/
